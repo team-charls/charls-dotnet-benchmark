@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
-    <PackageReference Include="CharLS.Native" Version="1.2.0" />
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.12" />
+    <PackageReference Include="CharLS.Native" Version="3.2.0" />
     <PackageReference Include="cscharls" Version="0.1.1" />
   </ItemGroup>
 
