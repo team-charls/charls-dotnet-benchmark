@@ -1,0 +1,17 @@
+# Copyright (c) Team CharLS.
+# SPDX-License-Identifier: BSD-3-Clause
+
+# The following configuration settings are used to control the build-in .NET analyzer in the C# compiler (Roslyn).
+# All warnings are by default enabled in the projects.
+# Some warnings type are however to noisy and not effective and globally disabled.
+is_global = true
+
+# Default severity for analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = error
+
+# CA1001: Type '' owns disposable field(s), but is not disposable
+dotnet_diagnostic.CA1001.severity = none
+
+# IDE0130 Namespace does not match folder structure
+# Rational: Keep these 2 concepts seperate
+dotnet_diagnostic.IDE0130.severity = none
