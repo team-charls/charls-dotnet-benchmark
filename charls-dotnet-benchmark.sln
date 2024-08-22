@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "charls-dotnet-benchmark", "charls-dotnet-benchmark.csproj", "{6671D8C6-210F-41F3-8FDA-B28BE57FC357}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "charls-dotnet-benchmark", "src\charls-dotnet-benchmark.csproj", "{D7F44C7C-1C1E-4D38-BCC3-42A260791668}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E69366B9-EB80-472C-B18D-16B5732965EE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.globalconfig = .globalconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6671D8C6-210F-41F3-8FDA-B28BE57FC357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6671D8C6-210F-41F3-8FDA-B28BE57FC357}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6671D8C6-210F-41F3-8FDA-B28BE57FC357}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6671D8C6-210F-41F3-8FDA-B28BE57FC357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F44C7C-1C1E-4D38-BCC3-42A260791668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F44C7C-1C1E-4D38-BCC3-42A260791668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F44C7C-1C1E-4D38-BCC3-42A260791668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F44C7C-1C1E-4D38-BCC3-42A260791668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

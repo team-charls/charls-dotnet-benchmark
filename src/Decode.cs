@@ -11,10 +11,8 @@ public class Decode
     private byte[]? _destination;
 
     // Keep warm copies of the decoders (read-only tables are cached between instances).
-    // ReSharper disable UnusedMember.Local
-    private CharLS.Native.JpegLSDecoder _decoderKeepNative = new();
-    private CharLS.Managed.JpegLSDecoder _decoderKeepManaged = new();
-    // ReSharper restore UnusedMember.Local
+    public readonly CharLS.Native.JpegLSDecoder _decoderKeepNative = new();
+    public readonly CharLS.Managed.JpegLSDecoder _decoderKeepManaged = new();
 
     [GlobalSetup]
     public void GlobalSetup()
@@ -44,7 +42,7 @@ public class Decode
     [Benchmark]
     public void DecodeCSCharls()
     {
-        CharLS.JpegLs.ReadHeader(_source, out var parameters, out string _);
-        CharLS.JpegLs.Decode(_destination, _source, parameters, out string _);
+        _ = CharLS.JpegLs.ReadHeader(_source, out var parameters, out string _);
+        _ = CharLS.JpegLs.Decode(_destination, _source, parameters, out string _);
     }
 }

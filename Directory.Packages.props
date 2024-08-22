@@ -1,0 +1,9 @@
+<Project>
+  <ItemGroup>
+    <PackageVersion Include="BenchmarkDotNet" Version="0.14.0" />
+    <PackageVersion Include="BenchmarkDotNet.Diagnostics.dotTrace" Version="0.14.0" />
+    <PackageVersion Include="CharLS.Native" Version="3.2.0" />
+    <PackageVersion Include="CharLS.Managed" Version="0.8.0" />
+    <PackageVersion Include="cscharls" Version="0.1.1" />
+  </ItemGroup>
+</Project>
