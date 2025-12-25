@@ -1,4 +1,4 @@
-# CharLS .NET Image Test
+# CharLS .NET Benchmark
 
 This repository contains benchmark application to compare the
 following JPEG-LS implementations:
