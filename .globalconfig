@@ -13,13 +13,17 @@ dotnet_analyzer_diagnostic.severity = error
 dotnet_diagnostic.CA1001.severity = none
 
 # IDE0130 Namespace does not match folder structure
-# Rational: Keep these 2 concepts seperate
+# Rational: Keep these 2 concepts separate
 dotnet_diagnostic.IDE0130.severity = none
 
-# CS1591: Missing XML comment for publicly visible type or member 
+# CS1591: Missing XML comment for publicly visible type or member
 # Rational: Classes need to be public for Benchmark, but XML comments are not needed.
 dotnet_diagnostic.CS1591.severity = none
 
 # CA1051: Do not declare visible instance fields
 # Rational: Ok for a Benchmark test application
 dotnet_diagnostic.CA1051.severity = none
+
+# CA1515: Consider making public types internal
+# Rational: Need to be public for the Benchmark framework
+dotnet_diagnostic.CA1515.severity = none
